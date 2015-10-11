@@ -73,7 +73,7 @@ register_field_group(array (
 				'class' => '',
 				'id' => '',
 			),
-			'default_value' => __('Sorry, page deleted or not exist.', 'jazzweb'),
+			'default_value' => __('<div class="entry-title"><h1>Page not found</h1><br/></div>Sorry, page deleted or does not exist.', 'jazzweb'),
 			'tabs' => 'all',
 			'toolbar' => 'full',
 			'media_upload' => 1,
