@@ -135,7 +135,31 @@ class breadcrumbs {
         }
         return (object)array(
             'name' => $category_name,
-            'url' =>$category_url
+            'url' => $category_url
+        );
+    }
+
+    /**
+     * 404 page
+     * @return object name
+     */
+    public function page404() {
+        $current_page = ''; 
+        $default_port = 80; 
+        if (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS']=='on')) {
+            $current_page .= 'https://';
+            $default_port = 443;
+        } else {
+            $current_page .= 'http://';
+        }
+        $current_page .= $_SERVER['SERVER_NAME'];
+        if ($_SERVER['SERVER_PORT'] != $default_port) {
+            $current_page .= ':'.$_SERVER['SERVER_PORT'];
+        }
+        $current_page .= $_SERVER['REQUEST_URI'];
+        return (object)array(
+            'name' => '404',
+            'url' => $current_page
         );
     }
 
@@ -172,7 +196,10 @@ class breadcrumbs {
         $sep = '<span class="separator">'.$sep.'</span>';
         $breadcrumbs = null;
         $parent_page = $this->parent_page();
-        if(is_front_page()) {
+        if(is_404()) {
+            $breadcrumbs = implode($sep, array($this->bitem('main'), $this->bitem('page404', false)));
+        }
+        elseif(is_front_page()) {
             $breadcrumbs = null;
         }
         elseif(is_page()) {
