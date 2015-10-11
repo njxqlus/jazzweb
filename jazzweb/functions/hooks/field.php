@@ -106,7 +106,6 @@ class jazzweb_field {
         elseif($rest == 7) {
             $rest = preg_replace('/7/', '+7', $rest);
         }
-        $rest = preg_replace('/8/', '+7', $rest);
         if($rest != '+7' && empty($addCode)) {
             $rest = '+7'.$rest;
         }
@@ -197,38 +196,46 @@ class jazzweb_field {
     /**
      * Echo gallery images
      * @since 2.0.0.1
+     * @version 1.1
      * @param string $name - Name of gallery field
      * @param string $size - Size of image. Use registered size (thumbnail, medium etc) or array(150,150)
      * @param bool $link - Use link to full size image
+     * @param bool $caption - Echo image caption
      */
-    public function gallery($name = '', $size = 'thumbnail', $link = true) {
+    public function gallery($name = '', $size = 'thumbnail', $link = true, $caption = false) {
         $fields = $this->get($name);
         if( $fields ) {
             $count = 0;
             ?>
-            <div id="<?php echo $name;?>-gallery">
+            <ul id="<?php echo $name;?>-gallery">
                 <?php foreach( $fields as $field ) {
-                    $count++
+                    $count++;
+                    $caption_text = null;
+                    if($caption == true) {
+                        $caption_text = $field['caption'];
+                    }
                     ?>
-                    <div class="item">
+                    <li class="item">
                         <?php
                         if( $link == true ) {
                             ?>
                             <a href="<?php echo wp_get_attachment_url($field['ID']); ?>" id="<?php echo $name .'-'. $count;?>">
                                 <?php
                                 echo wp_get_attachment_image($field['ID'], $size);
+                                echo $caption_text;
                                 ?>
                             </a>
                         <?php
                         }
                         else {
                             echo wp_get_attachment_image($field['ID'], $size);
+                            echo $caption_text;
                         }
                         ?>
-                    </div>
+                    </li>
                 <?php
                 } ?>
-            </div>
+            </ul>
         <?php
         }
     }
