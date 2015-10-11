@@ -1,0 +1,12 @@
+/*
+Theme Name: Jazzweb Child
+Theme URI: http://jazzweb.ru
+Description: Child theme for the Jazzweb theme
+Author: Mikael Agabalyants
+Author URI: http://jazzweb.ru
+Template: jazzweb
+Version: 1.0
+*/
+
+@import url('../jazzweb/style.css');
+

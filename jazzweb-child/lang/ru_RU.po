@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jazzweb\n"
+"POT-Creation-Date: 2015-07-27 15:01+0300\n"
+"PO-Revision-Date: 2015-07-27 15:01+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:8
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: functions.php:18
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: functions/sidebars.php:7
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions/ts/theme-options.php:4
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: functions/ts/theme-options.php:10
+msgid "General"
+msgstr "Общие"
+
+#: parts/menus/main.php:4
+msgid "Click to Open Menu"
+msgstr "Нажмите, чтобы открыть меню"
+
+#~ msgid ""
+#~ "You are using an outdated browser. Please <a class=\"alert-link\" href="
+#~ "\"http://browsehappy.com/\">upgrade your browser</a> to improve your "
+#~ "experience."
+#~ msgstr ""
+#~ "Вы используете устаревший браузер. Пожалуйста, <a class=\"alert-link\" "
+#~ "href=\"http://browsehappy.com/\">Обновите свой браузер</a> для "
+#~ "корректного использования сайта."
+
+#~ msgid "Search Results"
+#~ msgstr "Результаты поиска"
+
+#~ msgid "Force Regenerate Thumbnails"
+#~ msgstr "Восстановить миниатюры"
+
+#~ msgid "Regenerate the thumbnails for this single image"
+#~ msgstr "Повторно создать миниатюры для этого одного изображения"
+
+#~ msgid "Cheatin&#8217; uh?"
+#~ msgstr "Жульничаете, да?!"
+
+#~ msgid "Unable to find any images. Are you sure <a href='%s'>some exist</a>?"
+#~ msgstr ""
+#~ "Не удается найти изображения. Вы уверены, <a href='%s'>они существуют</a>?"
+
+#~ msgid ""
+#~ "Please be patient while the thumbnails are regenerated. You will be "
+#~ "notified via this page when the regenerating is completed."
+#~ msgstr ""
+#~ "Пожалуйста, будьте терпеливы в то время как миниатюры создаются заново. "
+#~ "Вы увидите уведомление на этой странице после завершения регенерации."
+
+#~ msgid "To go back to the previous page, <a href=\"%s\">click here</a>."
+#~ msgstr ""
+#~ "Чтобы вернуться на предыдущую страницу, <a href=\"%s\">нажмите здесь</a>."
+
+#~ msgid ""
+#~ "All done! %1$s image(s) were successfully resized in %2$s seconds and "
+#~ "there were %3$s failure(s). To try regenerating the failed images again, "
+#~ "<a href=\"%4$s\">click here</a>. %5$s"
+#~ msgstr ""
+#~ "Готово! %1$s изображений были успешно изменены за %2$s секунд и там были "
+#~ "%3$s ошибка(ок). Что бы попытаться регенерировать неудачные миниатюры "
+#~ "снова, <a href=\"%4$s\">нажмите здесь</a>. %5$s"
+
+#~ msgid ""
+#~ "All done! %1$s image(s) were successfully resized in %2$s seconds and "
+#~ "there were 0 failures. %3$s"
+#~ msgstr ""
+#~ "Все сделано! %1$s изображений были успешно изменены за %2$s секунд и было "
+#~ "0 ошибок. %3$s"
+
+#~ msgid "You must enable Javascript in order to proceed!"
+#~ msgstr "Вы должны включить Javascript для продолжения!"
+
+#~ msgid "Abort Process"
+#~ msgstr "Прервать процесс"
+
+#~ msgid "Process Information"
+#~ msgstr "Информация о процессе"
+
+#~ msgid "Total: %s"
+#~ msgstr "Всего: %s"
+
+#~ msgid "Success: %s"
+#~ msgstr "Успешно: %s"
+
+#~ msgid "Failure: %s"
+#~ msgstr "Неудачно: %s"
+
+#~ msgid "Stopping..."
+#~ msgstr "Остановка"
+
+#~ msgid "All Thumbnails"
+#~ msgstr "Все миниатюры"
+
+#~ msgid ""
+#~ "Pressing the follow button, you can regenerate thumbnails for all images "
+#~ "that you have uploaded to your blog."
+#~ msgstr ""
+#~ "Нажав кнопку ниже, можно повторно создать миниатюры  для всех "
+#~ "изображений, которые вы загрузили на ваш сайт."
+
+#~ msgid "Regenerate All Thumbnails"
+#~ msgstr "Создать миниатюры"
+
+#~ msgid "Specific Thumbnails"
+#~ msgstr "Отдельные миниатюры"
+
+#~ msgid ""
+#~ "You can regenerate all thumbnails for specific images from the <a "
+#~ "href='%s'>Media</a> page. (WordPress 3.1+ only)"
+#~ msgstr ""
+#~ "Можно восстановить все миниатюры для изображений на странице <a "
+#~ "href='%s'>медиа</a>."
+
+#~ msgid "Failed: %d is an invalid image ID."
+#~ msgstr "Неудача: %d неверный ID."
+
+#~ msgid "Your user account does not have permission to regenerate images."
+#~ msgstr ""
+#~ "Ваша учетная запись пользователя не имеет разрешения для восстановления "
+#~ "изображений."
+
+#~ msgid ""
+#~ "The originally uploaded image file cannot be found at &quot;%s&quot;."
+#~ msgstr ""
+#~ "Не удается найти файл первоначально загруженного изображения в «%s»."
+
+#~ msgid "The originally uploaded image file cannot be found."
+#~ msgstr "Не удается найти файл первоначально загруженного изображения."
+
+#~ msgid "Unknown failure reason."
+#~ msgstr "Причина ошибки неизвестна. "
+
+#~ msgid "<b>&quot;%s&quot; (ID %s)</b>"
+#~ msgstr "<b>&quot;%s&quot; (ID %s)</b>"
+
+#~ msgid "<code>BaseDir: %s</code><br />"
+#~ msgstr "<code>BaseDir: %s</code><br />"
+
+#~ msgid "<code>BaseUrl: %s</code><br />"
+#~ msgstr "<code>BaseUrl: %s</code><br />"
+
+#~ msgid "<code>Image: %s</code><br />"
+#~ msgstr "<code>Image: %s</code><br />"
+
+#~ msgid "<code>Image Debug 2: %s</code><br />"
+#~ msgstr "<code>Image Debug 2: %s</code><br />"
+
+#~ msgid "<code>Image Debug 3: %s</code><br />"
+#~ msgstr "<code>Image Debug 3: %s</code><br />"
+
+#~ msgid "<code>Image Debug 4: %s</code><br />"
+#~ msgstr "<code>Image Debug 4: %s</code><br />"
+
+#~ msgid "<br />Deleted: %s"
+#~ msgstr "<br />Deleted: %s"
+
+#~ msgid ""
+#~ "<br /><b><span style=\"color: #DD3D36;\">Deleted error: %s</span></b>"
+#~ msgstr ""
+#~ "<br /><b><span style=\"color: #DD3D36;\">Deleted error: %s</span></b>"
+
+#~ msgid ""
+#~ "<br /><span style=\"color: #DD3D36;\">Please, check the folder permission "
+#~ "(chmod 777): %s</span>"
+#~ msgstr ""
+#~ "<br /><span style=\"color: #DD3D36;\">Please, check the folder permission "
+#~ "(chmod 777): %s</span>"
+
+#~ msgid "<br />Regenerate: %s</span>"
+#~ msgstr "<br />Regenerate: %s</span>"
+
+#~ msgid "<br />Successfully regenerated in %s seconds"
+#~ msgstr "<br />Successfully regenerated in %s seconds"
+
+#~ msgid "(ID %s)<br />%s"
+#~ msgstr "(ID %s)<br />%s"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Установить необходимые плагины"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Установить плагины"
+
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "Установить плагин: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Что-то пошло не так с API плагина."
+
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "Эта тема требует следующей плагин:%1$s."
+#~ msgstr[1] "Эта тема требует следующей плагин:%1$s."
+#~ msgstr[2] "Эта тема требует следующей плагин:%1$s."
+
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "Эта тема рекомендует следующий плагин:%1$s."
+#~ msgstr[1] "Эта тема рекомендует следующий плагин:%1$s."
+#~ msgstr[2] "Эта тема рекомендует следующий плагин:%1$s."
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to install the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin installed."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to install the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins installed."
+#~ msgstr[0] ""
+#~ "Извините, но вы не имеете необходимых прав для активации плагина %s . "
+#~ "Свяжитесь с администратором сайта для получении помощи в активации "
+#~ "данного плагина."
+#~ msgstr[1] ""
+#~ "Извините, но вы не имеете необходимых прав для активации плагина %s . "
+#~ "Свяжитесь с администратором сайта для получении помощи в активации "
+#~ "данного плагина."
+#~ msgstr[2] ""
+#~ "Извините, но вы не имеете необходимых прав для активации плагина %s . "
+#~ "Свяжитесь с администратором сайта для получении помощи в активации "
+#~ "данного плагина."
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "Следующий обязательный плагин в настоящее время неактивен:%1$s."
+#~ msgstr[1] "Следующий обязательный плагин в настоящее время неактивен:%1$s."
+#~ msgstr[2] "Следующий обязательный плагин в настоящее время неактивен:%1$s."
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "Рекомендуемый плагин в настоящее время неактивен:%1$s."
+#~ msgstr[1] "Рекомендуемый плагин в настоящее время неактивен:%1$s."
+#~ msgstr[2] "Рекомендуемый плагин в настоящее время неактивен:%1$s."
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to activate the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin activated."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to activate the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins activated."
+#~ msgstr[0] ""
+#~ "Извините, но вы не имеете необходимых прав для активации плагина %s . "
+#~ "Свяжитесь с администратором сайта для получении помощи в активации "
+#~ "данного плагина."
+#~ msgstr[1] ""
+#~ "Извините, но вы не имеете необходимых прав для активации плагина %s . "
+#~ "Свяжитесь с администратором сайта для получении помощи в активации "
+#~ "данного плагина."
+#~ msgstr[2] ""
+#~ "Извините, но вы не имеете необходимых прав для активации плагина %s . "
+#~ "Свяжитесь с администратором сайта для получении помощи в активации "
+#~ "данного плагина."
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "Этот плагин должен быть обновлен до последней версии, чтобы обеспечить "
+#~ "максимальную совместимость с этой темой:%1$s."
+#~ msgstr[1] ""
+#~ "Этот плагин должен быть обновлен до последней версии, чтобы обеспечить "
+#~ "максимальную совместимость с этой темой:%1$s."
+#~ msgstr[2] ""
+#~ "Этот плагин должен быть обновлен до последней версии, чтобы обеспечить "
+#~ "максимальную совместимость с этой темой:%1$s."
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to update the %s "
+#~ "plugin. Contact the administrator of this site for help on getting the "
+#~ "plugin updated."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to update the %s "
+#~ "plugins. Contact the administrator of this site for help on getting the "
+#~ "plugins updated."
+#~ msgstr[0] ""
+#~ "Извините, но вы не имеете правильные разрешения для обновления плагина %s "
+#~ "в. Для помощи в получении плагин обновленный, обратитесь к администратору "
+#~ "этого сайта."
+#~ msgstr[1] ""
+#~ "Извините, но вы не имеете правильные разрешения для обновления плагина %s "
+#~ "в. Для помощи в получении плагин обновленный, обратитесь к администратору "
+#~ "этого сайта."
+#~ msgstr[2] ""
+#~ "Извините, но вы не имеете правильные разрешения для обновления плагина %s "
+#~ "в. Для помощи в получении плагин обновленный, обратитесь к администратору "
+#~ "этого сайта."
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "Начать установку плагина"
+#~ msgstr[1] "Начать установку плагина"
+#~ msgstr[2] "Начать установку плагина"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "Начните активацию плагина"
+#~ msgstr[1] "Начните активацию плагина"
+#~ msgstr[2] "Начните активацию плагина"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "Вернуться к установке необходимых плагинов"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Плагин успешно активирован."
+
+#~ msgid "All plugins installed and activated successfully. %s"
+#~ msgstr "Все плагины установлены и активированы. %s"
+
+#~ msgid "Page title"
+#~ msgstr "Заголовок страницы"
+
+#~ msgid "How to show the title?"
+#~ msgstr "Как показывать заголовок?"
+
+#~ msgid "By default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "Custom"
+#~ msgstr "Произвольный"
+
+#~ msgid "Do not show"
+#~ msgstr "Не показывать"
+
+#~ msgid "Enter title here"
+#~ msgstr "Введите заголовок здесь"
+
+#~ msgid "Additional"
+#~ msgstr "Дополнительно"
+
+#~ msgid "Additional settings"
+#~ msgstr "Дополнительные параметры"
+
+#~ msgid "Only PNG image format."
+#~ msgstr "Только PNG формат изображения."
+
+#~ msgid "Additional code"
+#~ msgstr "Дополнительный код"
+
+#~ msgid ""
+#~ "Additional code for Yandex Metrika, Google Analytics and other. This code "
+#~ "placed in footer, before <i>body</i> tag."
+#~ msgstr ""
+#~ "Дополнительный код для Яндекс метрики и Google Analytics. Этот код "
+#~ "помещается в подвал, до тега <i>body</i> ."
+
+#~ msgid "404 page text"
+#~ msgstr "Текст страницы 404"
+
+#~ msgid "Sorry, page deleted or not exist."
+#~ msgstr "Извините страница удалена или не существует."
+
+#~ msgid "Enable theme options"
+#~ msgstr "Включить настройки темы"
+
+#~ msgid "Copyright"
+#~ msgstr "Авторские права"
+
+#~ msgid ""
+#~ "Site creation - <a href=\"http://jazzweb.ru\" title=\"Site creation"
+#~ "\">Jazzweb</a>"
+#~ msgstr ""
+#~ "Создание сайта - <a href=\"http://jazzweb.ru\" title=\"Создание сайта"
+#~ "\">Jazzweb</a>"
+
+#~ msgid "Bootstrap"
+#~ msgstr "Bootstrap"
+
+#~ msgid "Bootstrap settings"
+#~ msgstr "Bootstrap настройки"
+
+#~ msgid "Disable adaptive"
+#~ msgstr "Отключить адаптивность"
+
+#~ msgid "Meta content width"
+#~ msgstr "Ширина контента"
+
+#~ msgid "Favorites plugins"
+#~ msgstr "Избранные плагины"
+
+#~ msgid "Plugins"
+#~ msgstr "Плагины"
+
+#~ msgid ""
+#~ "You can delete or deactivate plugins only on <a href=\"plugins.php"
+#~ "\">plugins page</a>."
+#~ msgstr ""
+#~ "Можно удалить или отключить плагины только на <a href=\"plugins.php"
+#~ "\">странице плагинов</a>."
+
+#~ msgid "Scripts"
+#~ msgstr "Скрипты"
+
+#~ msgid "Regenerate Thumbnails"
+#~ msgstr "Восстановить миниатюры"

@@ -1,0 +1,47 @@
+2.0.0.5
+Update hook field->phone
+
+2.0.0.1
+Added offcanvas menu to child theme
+Added front page loop
+Added post hooks
+
+2.0.0
+Restructured theme
+Tons of fixes
+1.3.0.1
+Edited title meta tag
+
+1.3.0
+Restructured theme and child theme
+Added hooks system
+Added some hooks
+Update:
+Advanced Custom Fields Pro 5.2.1
+
+1.2.3
+Added WooCommerce support
+
+1.2.2
+Include:
+WP Advanced Search 1.3
+Add:
+Child Theme Support
+
+1.2.1
+Include:
+Jasny Bootstrap 3.1.3
+
+1.2
+Include:
+Bootstrap 3.3.4
+Font Awesome 4.3.0
+Cyr3lat 3.5
+Advanced Custom Fields Pro 5.1.9.1
+Force Regenerate Thumbnails 2.0.3
+Smoot scroll 1.2.1
+Install:
+Shortcodes Ultimate Skins 1.5.0
+Shortcodes Ultimate Extra 1.5.3
+Shortcodes Ultimate Maker 1.5.3
+Admin Columns Pro 3.5
