@@ -43,6 +43,9 @@ class jazzweb {
         elseif( is_home() ) {
             $this->loop('home');
         }
+        elseif( is_search() ) {
+            $this->loop('search');
+        }
     }
 
     /**
