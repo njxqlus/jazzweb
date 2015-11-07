@@ -3,7 +3,7 @@
  * Activate Hiweb debug
  */
 if( function_exists('hiweb') ) {
-    hiweb()->debug();
+    //hiweb()->debug();
 } else {
     function hiweb_dosent_exists(){
         ?>

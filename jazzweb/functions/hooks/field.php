@@ -93,25 +93,13 @@ class jazzweb_field {
      * @param string $name - Start of phone field's name, ex phone_1
      * @param bool $link - Use link to phone
      * @param bool $paragraph - Use paragraph
-     * @param string $addCode - Add code before number
+     * @param string $addCode - Add phone code before number
      */
     public function phone($name = '', $link = true, $paragraph = true, $addCode = '') {
         $phone_text = $this->get($name);
         $a_id = 'id="'. $name .'"';
         $phone = preg_replace('#[^\d]#', '', $phone_text);
-        $rest = substr($phone, 0, 1);
-        if($rest == 8) {
-            $rest = preg_replace('/8/', '+7', $rest);
-        }
-        elseif($rest == 7) {
-            $rest = preg_replace('/7/', '+7', $rest);
-        }
-        if($rest != '+7' && empty($addCode)) {
-            $rest = '+7'.$rest;
-        }
-
-        $phone = substr($phone, 1);
-        $phone_number = implode('', array($addCode,$rest, $phone));
+        $phone_number = implode('', array($addCode, $phone));
         if( $paragraph == true ) {
             $a_id = null;
             ?>
