@@ -101,7 +101,11 @@ class jazzweb_post {
      * @param null $post_id - Post ID
      */
     public function title($tag = 'h2', $link = false, $post_id = null) {
-        $title = get_the_title($post_id);
+		if(function_exists('has_secondary_title') && has_secondary_title($post_id)) { 
+			$title = get_secondary_title($post_id);
+		} else {
+			$title = get_the_title($post_id);
+		}
         if($title) {
             ?>
             <div class="<?php echo get_post_type(); ?>-title entry-title">
